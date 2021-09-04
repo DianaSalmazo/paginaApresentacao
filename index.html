@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b21c68b8ef.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Diana Salmazo</title>
+</head>
+
+<header>
+  <div class="logoDS"> 
+    <img src="./images/DS.png" class="logoDS" width="60%"alt="logoDS">
+  </div>
+
+  <h1 class="name">Diana Salmazo</h1>
+   
+</header>
+
+<body>
+    <div id="navbar">
+        <ul><a href="https://github.com/DianaSalmazo"> GitHub </a></ul>
+        <ul><a href="https://www.linkedin.com/in/diana-salmazo/"> Linkedin </a></ul>
+        <ul><a href="mailto:dcrsalmazo@gmail.com"> E-mail </a></ul>
+    </div>
+    
+    <main>
+    <h2>Full Stack developer</h2>
+    
+    <br> 
+    
+    <div onclick="displayAbout()" id="arrow"><i id="animation" class="fas fa-sort-down"></i></div>
+    <br>
+
+    <p id="knowledge" style="display: none">HTML, CSS, React, Javascript, Typescript, Node.js, Banco de dados. <br>
+    <strong>Interesses:</strong> HTML, CSS, Javascript, React. </p>
+   
+        <br><br>
+
+    <div class="subscribe">
+        <input type="email" id="email" placeholder="Digite aqui seu email (:"/>
+        <button type="button" id="submit">Enviar</button>
+
+    </div>
+    
+    
+    </main>
+
+</body>
+
+<script>
+    function displayAbout() {
+    var arrow = document.getElementById ('animation');
+    arrow.classList.toggle('rotate');
+    var display = document.getElementById('knowledge');
+    display.classList.toggle('active')
+}
+</script>
+
+<br><br><br><br>
+<footer>
+    <p>Desenvolvido por <a href="https://www.linkedin.com/in/diana-salmazo/" id="linkedin"> Diana Salmazo </a> durante 
+        Start Tech da Gama Academy. Todos os direitos reservados. </p>
+</footer>
+
+</html>
