@@ -22,9 +22,9 @@ header {
 #navbar {
     list-style: none;
     display: flex;
-    justify-content: left;
+    justify-content: flex-end;
     font-weight: 300;
-    justify-content: right;
+    text-align: right;
     text-decoration: none;
     padding: 5px;
     margin-top: -2%;
@@ -87,9 +87,13 @@ input {
     color: blueviolet;
     padding: 5px 10px;
     font-weight: 500;
+    width: 30%;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
 }
 button {
-    width: 15%;
+    width: 8%;
     padding: 5px 10px;
     background-color: darkorchid;
     background-size: 200% 100%;
@@ -100,27 +104,13 @@ button {
     transition: all 300ms ease-out;
     cursor: pointer;
     border-radius: 0px 5px 5px 0px;
-    margin-left: -5px;
+    margin-left: -4.4px;
     margin-top: 20px;
 }
 button:hover{
     color: wheat;
     background-color: cadetblue;
+    width: 8%;
  
 }
 
-.subscribe {
-    text-align: center;
-    font-size: 18px;
- }
-.subscribe input {
-    width: 30%;
-    margin: 0 auto;
-    border: none;
-    border-radius: 5px 0px 0px 5px;
-    
-}
-.subscribe button {
-    width: 8%;
-  
-}
